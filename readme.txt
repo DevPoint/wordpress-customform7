@@ -22,6 +22,10 @@ You can find [docs](http://contactform7.com/docs/), [FAQ](http://contactform7.co
 
 It is hard to continue development and support for this free plugin without contributions from users like you. If you enjoy using Contact Form 7 and find it useful, please consider [__making a donation__](http://contactform7.com/donate/). Your donation will help encourage and support the plugin's continued development and better user support.
 
+= Patches by Devpoint =
+
+* Applied patch in shortcodes.php to make pipes for [select] working again. (Fork on Github.com/devpoint/wordpress-contactform7
+
 = Recommended Plugins =
 
 The following are other recommended plugins by the author of Contact Form 7.
