@@ -351,6 +351,12 @@ class WPCF7_Shortcode {
 	}
 
 	public function get_cols_option( $default = '' ) {
+		$option = $this->get_option( 'cols', 'int', true );
+
+		if ( $option ) {
+			return $option;
+		}
+
 		$matches_a = $this->get_all_match_options(
 			'%^([0-9]*)x([0-9]*)(?:/[0-9]+)?$%' );
 
@@ -363,6 +369,12 @@ class WPCF7_Shortcode {
 	}
 
 	public function get_rows_option( $default = '' ) {
+		$option = $this->get_option( 'rows', 'int', true );
+
+		if ( $option ) {
+			return $option;
+		}
+
 		$matches_a = $this->get_all_match_options(
 			'%^([0-9]*)x([0-9]*)(?:/[0-9]+)?$%' );
 
